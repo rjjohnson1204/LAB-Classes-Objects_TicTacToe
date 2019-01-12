@@ -29,7 +29,7 @@ namespace Lab04_TicTacToe.Classes
                 
                 for (int j = 0; j< Board.GetLength(1); j++)
                 {
-                    Console.WriteLine(Board[i, j]);
+                    Console.Write(Board[i, j]);
                 }
             }
 		}
