@@ -22,13 +22,13 @@ namespace Lab04_TicTacToe.Classes
 		{
              
             //TODO: Output the board to the console
-
+            //loops through the rows of the number 
             for (int i = 0; i < Board.GetLength(0); i++)
             {
                 Console.WriteLine();
-                
+                //loops through the columns
                 for (int j = 0; j< Board.GetLength(1); j++)
-                {
+                { // writes the rows and columns as matrix
                     Console.Write(Board[i, j]);
                 }
             }
