@@ -14,15 +14,19 @@ namespace Lab04_TicTacToe
 
             Console.WriteLine("      Care to try your luck?");
             Console.WriteLine("                          ");
-            Console.WriteLine("         Enter player Ones name... ");
+            Console.WriteLine("         Enter player One's name... ");
             Console.WriteLine("                          ");
             string Player1;
             Player1 = Console.ReadLine();
-            Console.WriteLine($"hello {Player1} ");
+            Console.WriteLine(            $"Hello {Player1} ");
+            Console.WriteLine("                          ");
+            Console.WriteLine("         Enter player Two's name... ");
+            Console.WriteLine("                          ");
+            string Player2;
+            Player2 = Console.ReadLine();
+            Console.WriteLine("                          ");
+            Console.WriteLine(             $"Hello {Player2} ");
 
-            Console.WriteLine("                          ");
-            Console.WriteLine("         Enter player Two name... ");
-            Console.WriteLine("                          ");
             Console.ReadLine();
 
 
@@ -30,6 +34,14 @@ namespace Lab04_TicTacToe
             
                P1.Name = Player1;
                P1.Marker = "X";
+               P1.IsTurn = true;
+
+            Player P2 = new Player();
+
+                P2.Name = Player2;
+                P2.Marker = "O";
+                P2.IsTurn = false;
+
                
 
 
