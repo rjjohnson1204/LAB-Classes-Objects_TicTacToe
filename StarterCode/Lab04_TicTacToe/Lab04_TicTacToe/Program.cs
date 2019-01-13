@@ -25,7 +25,7 @@ namespace Lab04_TicTacToe
             string Player2;
             Player2 = Console.ReadLine();
             Console.WriteLine("                          ");
-            Console.WriteLine(             $"Hello {Player2} ");
+            Console.WriteLine(            $"Hello {Player2} ");
 
             Console.ReadLine();
 
@@ -53,8 +53,7 @@ namespace Lab04_TicTacToe
 
             Board board = new Board();
 
-            string[,] GameBoard = board.GameBoard;
-            board.DisplayBoard(GameBoard);
+            
 
         }
     }

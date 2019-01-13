@@ -17,19 +17,19 @@ namespace Lab04_TicTacToe.Classes
 			{"7", "8", "9"},
 		};
 
-        public void DisplayBoard(string[,] Board)
+        public void DisplayBoard()
             
 		{
              
             //TODO: Output the board to the console
             //loops through the rows of the number 
-            for (int i = 0; i < Board.GetLength(0); i++)
+            for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine();
                 //loops through the columns
-                for (int j = 0; j< Board.GetLength(1); j++)
+                for (int j = 0; j < 3; j++)
                 { // writes the rows and columns as matrix
-                    Console.Write(Board[i, j]);
+                    Console.Write(GameBoard[i, j]);
                 }
             }
 		}
