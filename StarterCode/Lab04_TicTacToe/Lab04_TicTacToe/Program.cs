@@ -7,7 +7,17 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Tic Tac Toe");
+            Console.WriteLine("                          ");
+
+            Console.WriteLine("Care to try your luck?");
+            Console.WriteLine("                          ");
+            Console.WriteLine(" Enter player name... ");
+            Console.WriteLine("                          ");
+            Console.ReadLine();
+
+
+
 
 
             Board board = new Board();
