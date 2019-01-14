@@ -22,7 +22,7 @@
 
 ![ Game play](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Game_play_Capture.PNG) 
 
-3.Players will make their selection by enter a number 1-9 corresponding to positions on the game board.
+3. Players will make their selection by enter a number 1-9 corresponding to positions on the game board.
 
 4. After each selection the players will switch to make their selection and keep doing so until a winner is determined.
 
