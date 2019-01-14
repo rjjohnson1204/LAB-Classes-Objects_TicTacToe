@@ -29,7 +29,7 @@
 
 ##Here is an image of what the game displays when there is a winner.
 
-![Winner image](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Winner_Capture.PNGg) 
+![Winner image](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Winner_Capture.PNG) 
 
 5. Once a winner is decided a player will press enter to exit the game. 
  //////////////////////////////////////////////////////////////////////
