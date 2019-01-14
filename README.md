@@ -1,5 +1,6 @@
 ## TIC TAC TOE
- This is a simple game of Tic Tac Toe.
+ This is a simple game of Tic Tac Toe where each player takes a turn picking spots on the game board they would like to mark. 
+ After one of the players gets three marks in a row, they will be crowned the winner!! In the event no one wins, there will be a stalemate...or ...draw.
 
  ## Here are some sample images of game play and how to play.
 
