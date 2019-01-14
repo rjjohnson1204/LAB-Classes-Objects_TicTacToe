@@ -1,46 +1,30 @@
+## TIC TAC TOE
+ This is a simple game of Tic Tac Toe.
+
+ ## Here are some sample images of game play and how to play.
+
+## This is the game intro.
+![Game intro](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Game_intro_Capture.PNG) 
+
+1. From there we enter the player names.
 
 
+##Here we have an image of participants entering their names
+![Enter names](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Entering_of_player_names_Capture.PNG) 
 
-![Game intro](http://i.imgur.com/7v5ASc8.png) 
-![Enter names](http://i.imgur.com/7v5ASc8.png) 
-![ Game play](http://i.imgur.com/7v5ASc8.png) 
-![Winner image](http://i.imgur.com/7v5ASc8.png) 
+2. Once entered the players names will be assigned respectively.
 
-=====================================
 
-## Learning Objectives
-1. Students will be introduced to Object Oriented Programming
-2. Students will know the difference between a class and an object
-3. Students will know the difference between the stack and the heap. 
-4. Students will be introduced to Garbage Collection and it's purpose.
+##Here is an image of actual game play
+![ Game play](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Game_play_Capture.PNG) 
 
-## Lecture Outline
+3.Players will make their selection by enter a number 1-9 corresponding to positions on the game board.
 
-### Object-Oriented Programming
-- What is Object Oriented Programming?
+4. After each selection the players will switch to make their selection and keep doing so until a winner is determined.
 
-Object oriented programming is mimicking real world objects in code. 
-Everything in C# is essentially a class, and we can instantiate objects from classes that we can manage at a smaller level.
 
-### Classes
-- We've seen them, now how do we use them?
+##Here is an image of what the game displays when there is a winner.
+![Winner image](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Winner_Capture.PNGg) 
 
-A class is a blueprint for a specific type or category of object. 
-This means that the class will outline what exactly each object will have in regards to 
-properties, methods, and general behavior. 
+5. Once a winner is decided a player will press enter to exit the game. 
 
-### Objects
-- What is the difference between a class and an object??
-	- An object is an **instance of a class**
-
-- To create an object, we must instantiate it from a non-abstract class. 
-
-### Constructors
-Constructors are created by default with each class. They are the "requirements" of what information is required before an object can be instantiated. we have the ability to add more than one constructor if needed. By default, we get an "empty" one. if we decide to create a new constructor, we must explicitly declare an empty constructor for it to be used. 
-
-### Object Initializers
-- We can initialize an object on creation. This saves space when coding, and sometimes looks a little cleaner. 
-
-### Keyword Static
-- What does static mean?
-	- if it is marked as static, it lives at the class level, not the object level.
