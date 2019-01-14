@@ -113,9 +113,20 @@ namespace Lab04_TicTacToe.Classes
 				string b = Board.GameBoard[p2.Row, p2.Column];
 				string c = Board.GameBoard[p3.Row, p3.Column];
 
-				// TODO:  Determine a winner has been reached. 
-				// return true if a winner has been reached. 
-			
+                // TODO:  Determine a winner has been reached. 
+                // return true if a winner has been reached. 
+
+                // checks to see if player 1 got three in a row
+                if ( a == "X" && b == "X" && c =="X" )
+                {
+                    return true;
+                }
+                // Checks to see if player 2 for three in a row
+                else if ( a == "O" && b == "O" && c == "O" )
+                {
+                    return true;
+                }
+
 			}
 
 			return false;
