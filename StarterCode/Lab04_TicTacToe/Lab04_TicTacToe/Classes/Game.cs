@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-	class Game
+	 public class Game
 	{
 		public Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
@@ -30,8 +30,37 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>Winner</returns>
 		public Player Play()
 		{
+            int turns = 0;
+            // Dislay board
+            Board.DisplayBoard();
 
-			//TODO: Complete this method and utilize the rest of the class structure to play the game.
+            while(true)
+            {   // the current player takes turn on board and are counted
+                Player currentPlayer = NextPlayer();
+                currentPlayer.TakeTurn(Board);
+                turns++;
+                Console.Clear();
+                Board.DisplayBoard();
+
+                //checks to see if there is a winner on the board
+                if (CheckForWinner(Board))
+                {
+                    Winner = currentPlayer;
+                    return Winner;
+                }
+                //checks to see if the players have used the positions on the board
+                if(turns >= 9)
+                {
+                    Winner = null;
+                    return Winner;
+
+                }
+
+                SwitchPlayer();
+            }
+
+
+            //TODO: Complete this method and utilize the rest of the class structure to play the game.
 
             /*
              * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
@@ -47,6 +76,8 @@ namespace Lab04_TicTacToe.Classes
 
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
+            //Player One = new Player();
+            //return One;
 		}
 
 
@@ -82,11 +113,22 @@ namespace Lab04_TicTacToe.Classes
 				string b = Board.GameBoard[p2.Row, p2.Column];
 				string c = Board.GameBoard[p3.Row, p3.Column];
 
-				// TODO:  Determine a winner has been reached. 
-				// return true if a winner has been reached. 
-			
-			}
+                // TODO:  Determine a winner has been reached. 
+                // return true if a winner has been reached. 
 
+                // checks to see if player 1 has three in a row
+                if ( a == "X" && b == "X" && c =="X" )
+                {
+                    return true;
+                }
+                // Checks to see if player 2 has three in a row
+                else if ( a == "O" && b == "O" && c == "O" )
+                {
+                    return true;
+                }
+
+			}
+            // neither player has 3 in a row
 			return false;
 		}
 
@@ -120,6 +162,7 @@ namespace Lab04_TicTacToe.Classes
 			}
 		}
 
-
-	}
+        
+        
+    }
 }
