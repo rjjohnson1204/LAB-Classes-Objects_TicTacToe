@@ -1,4 +1,11 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 04: Classes and Objects
+
+
+
+![Game intro](http://i.imgur.com/7v5ASc8.png) 
+![Enter names](http://i.imgur.com/7v5ASc8.png) 
+![ Game play](http://i.imgur.com/7v5ASc8.png) 
+![Winner image](http://i.imgur.com/7v5ASc8.png) 
+
 =====================================
 
 ## Learning Objectives

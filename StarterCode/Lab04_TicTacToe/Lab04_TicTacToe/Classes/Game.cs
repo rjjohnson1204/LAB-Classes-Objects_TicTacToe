@@ -76,8 +76,8 @@ namespace Lab04_TicTacToe.Classes
 
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
-            Player One = new Player();
-            return One;
+            //Player One = new Player();
+            //return One;
 		}
 
 
@@ -116,19 +116,19 @@ namespace Lab04_TicTacToe.Classes
                 // TODO:  Determine a winner has been reached. 
                 // return true if a winner has been reached. 
 
-                // checks to see if player 1 got three in a row
+                // checks to see if player 1 has three in a row
                 if ( a == "X" && b == "X" && c =="X" )
                 {
                     return true;
                 }
-                // Checks to see if player 2 for three in a row
+                // Checks to see if player 2 has three in a row
                 else if ( a == "O" && b == "O" && c == "O" )
                 {
                     return true;
                 }
 
 			}
-
+            // neither player has 3 in a row
 			return false;
 		}
 

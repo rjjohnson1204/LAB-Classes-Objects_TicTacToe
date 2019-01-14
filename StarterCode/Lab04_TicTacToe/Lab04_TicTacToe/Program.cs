@@ -8,20 +8,23 @@ namespace Lab04_TicTacToe
         public static string name;
 
         static void Main(string[] args)
-        {
+        {   // intro to game
             Console.WriteLine("      Welcome to Tic Tac Toe");
+            Console.WriteLine("                          ");
             Console.WriteLine("           X O X O X O               ");
-
+            Console.WriteLine("                          ");
             Console.WriteLine("      Care to try your luck?");
             Console.WriteLine("                          ");
             Console.WriteLine("      Enter player One's name... ");
             Console.WriteLine("                          ");
+            //assigns player 1's name
             string Player1;
             Player1 = Console.ReadLine();
             Console.WriteLine($"     Hello {Player1} ");
             Console.WriteLine("                          ");
             Console.WriteLine("      Enter player Two's name... ");
             Console.WriteLine("                          ");
+            //assigns player 2's name
             string Player2;
             Player2 = Console.ReadLine();
             Console.WriteLine("                          ");
@@ -58,10 +61,8 @@ namespace Lab04_TicTacToe
             }
             else
             {    //The winner
-                Console.WriteLine($"{PlayerWinner.Name} is NOT the LOSER!");
+                Console.WriteLine($"{PlayerWinner.Name} is NOT the BIGGEST LOSER!");
             }
-
-        
         }
     }
 }
