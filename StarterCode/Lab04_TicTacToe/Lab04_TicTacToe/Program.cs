@@ -14,18 +14,18 @@ namespace Lab04_TicTacToe
 
             Console.WriteLine("      Care to try your luck?");
             Console.WriteLine("                          ");
-            Console.WriteLine("         Enter player One's name... ");
+            Console.WriteLine("      Enter player One's name... ");
             Console.WriteLine("                          ");
             string Player1;
             Player1 = Console.ReadLine();
-            Console.WriteLine(            $"Hello {Player1} ");
+            Console.WriteLine($"     Hello {Player1} ");
             Console.WriteLine("                          ");
-            Console.WriteLine("         Enter player Two's name... ");
+            Console.WriteLine("      Enter player Two's name... ");
             Console.WriteLine("                          ");
             string Player2;
             Player2 = Console.ReadLine();
             Console.WriteLine("                          ");
-            Console.WriteLine(            $"Hello {Player2} ");
+            Console.WriteLine($"     Hello {Player2} ");
 
             Console.ReadLine();
 
@@ -53,11 +53,11 @@ namespace Lab04_TicTacToe
             Player PlayerWinner = TicTacToe.Play();
 
             if (PlayerWinner == null)
-            {
+            {   // a draw
                 Console.WriteLine("Stalemate!");
             }
             else
-            {
+            {    //The winner
                 Console.WriteLine($"{PlayerWinner.Name} is NOT the LOSER!");
             }
 

@@ -31,6 +31,7 @@ namespace Lab04_TicTacToe.Classes
                 { // writes the rows and columns as matrix
                     System.Console.Write($"| {GameBoard[i, j]} |");
                 }
+                    Console.Write("    ");
             }
 		}
 	}      
