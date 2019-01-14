@@ -5,18 +5,21 @@
  ## Here are some sample images of game play and how to play.
 
 ## This is the game intro.
+
 ![Game intro](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Game_intro_Capture.PNG) 
 
 1. From there we enter the player names.
 
 
 ##Here we have an image of participants entering their names
+
 ![Enter names](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Entering_of_player_names_Capture.PNG) 
 
 2. Once entered the players names will be assigned respectively.
 
 
 ##Here is an image of actual game play
+
 ![ Game play](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Game_play_Capture.PNG) 
 
 3.Players will make their selection by enter a number 1-9 corresponding to positions on the game board.
@@ -25,6 +28,7 @@
 
 
 ##Here is an image of what the game displays when there is a winner.
+
 ![Winner image](https://github.com/rjjohnson1204/Lab04-Classes-Objects_TicTacToe/blob/master/Assets/Winner_Capture.PNGg) 
 
 5. Once a winner is decided a player will press enter to exit the game. 
