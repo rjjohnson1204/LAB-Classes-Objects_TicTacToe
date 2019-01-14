@@ -42,16 +42,19 @@ namespace Lab04_TicTacToe
                 P2.Marker = "O";
                 P2.IsTurn = false;
 
-               
-
-
-
-
-
-
-
-
             Board board = new Board();
+
+            Game TicTacToe = new Game(P1, P2);
+
+            Player PlayerWinner = TicTacToe.Play();
+
+
+
+
+
+
+
+
 
             
 
