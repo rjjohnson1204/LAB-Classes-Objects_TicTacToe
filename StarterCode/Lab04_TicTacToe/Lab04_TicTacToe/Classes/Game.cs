@@ -31,6 +31,10 @@ namespace Lab04_TicTacToe.Classes
 		public Player Play()
 		{
             Board.DisplayBoard();
+            Position Position = PlayerOne.GetPosition(Board);
+            Position PositionForNumber = PlayerOne.PositionForNumber();
+
+
             //TODO: Complete this method and utilize the rest of the class structure to play the game.
 
             /*
