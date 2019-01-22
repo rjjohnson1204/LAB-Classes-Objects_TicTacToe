@@ -9,7 +9,7 @@ namespace XUnitTestProject1
     {
         // test to see if a win is produced 
         [Fact]
-        public void Winner()
+        public void WinnerX()
         {
             Player P1 = new Player();
             Player P2 = new Player();
@@ -43,9 +43,25 @@ namespace XUnitTestProject1
         public void NumberMatch()
         {
             Position testCoords = Player.PositionForNumber(2);
-            Assert.Equal(1, testCoords.Row);
-            Assert.Equal(0, testCoords.Column);
+            Assert.Equal(0, testCoords.Row);
+            Assert.Equal(1, testCoords.Column);
         }
 
+    
+        // testing that a winner can be determined with O's
+        [Fact]
+
+        public void WinnerO()
+        {
+            Player P1 = new Player();
+            Player P2 = new Player();
+            Game TicTacToe = new Game(P1, P2);
+
+            TicTacToe.Board.GameBoard[0, 0] = "O";
+            TicTacToe.Board.GameBoard[0, 1] = "O";
+            TicTacToe.Board.GameBoard[0, 2] = "O";
+
+
+        }
     }
 }
