@@ -36,5 +36,16 @@ namespace XUnitTestProject1
 
             Assert.True(TicTacToe.PlayerTwo.IsTurn);
         }
+
+
+        // test to see if player input matches selection on the game board
+        [Fact]
+        public void NumberMatch()
+        {
+            Position testCoords = Player.PositionForNumber(2);
+            Assert.Equal(1, testCoords.Row);
+            Assert.Equal(0, testCoords.Column);
+        }
+
     }
 }
